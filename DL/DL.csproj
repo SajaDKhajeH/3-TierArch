@@ -47,6 +47,10 @@
     <Compile Include="TeacherDL.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{d51fef20-0f9e-44f4-9987-1141efc6b90e}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{2B50663F-8C29-481D-A7A7-60613F99F738}</Project>
       <Name>Model</Name>
